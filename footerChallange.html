@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <style>
+        .container-fluid{
+            background: #292f3f;
+        }
+        h3{
+            font-size: 15px;
+            color: rgb(228, 216, 216);
+            text-transform: uppercase;
+        }
+        hr{
+            padding-top: 1px;
+            color: #fff;
+            z-index: 999;
+            margin-left: 0;
+        }
+        .p{
+            font-size: 13px;
+        }
+        ul{
+            list-style: none;
+           
+        }
+        .ul li{
+            margin-bottom: 5px;
+            
+        }
+       .ul li a{
+            text-decoration: none;
+            font-size: 13px;
+            color: #fff;
+         }
+         input[type='text']{
+             background: #424a5d;
+            border: 2px #424a5d solid;
+           border-radius: 10px;
+           height: 45px;
+           color: #fff;
+           margin: 0;
+           padding-left: 0;
+           outline: none;
+           text-align: center;
+           width: 270px;
+           border-top-right-radius:0px;
+           border-bottom-right-radius:0px;
+         }
+        
+         input[type='submit']{
+             background: #505dd0;
+             border: 2px solid #505dd0;
+             border-radius: 10px;
+             border-top-left-radius:0px;
+             border-bottom-left-radius:0px;
+             height: 45px;
+            
+             text-align: center;
+             width: 120px;
+             color: #fff;
+             
+         }
+         
+         .select{
+            background: #424a5d;
+            border: 2px #424a5d solid;
+           border-radius: 10px;
+           height: 45px;
+           color: #fff;
+           margin: 0;
+           padding-left: 0;
+           outline: none;
+           text-align: center;
+           width: 200px;
+           
+         }
+       .copyright{
+            font-size: 16px;
+            color: rgb(228, 216, 216);
+           
+        }
+        .icons li{
+            display: inline-block;
+        }
+        .icons li i{
+            color: #9ba8b9;
+        }
+        .icons li a{
+            margin-right: 20px;
+            text-decoration: none;
+        }
+        @media (max-width:991px) {
+         .select{
+            background: #424a5d;
+            border: 2px #424a5d solid;
+           border-radius: 10px;
+           height: 45px;
+           color: #fff;
+           margin: 0;
+           padding-left: 0;
+           outline: none;
+           text-align: center;
+           width: 200px;
+          position: relative;
+          left:30%;
+           
+         }
+        }
+        @media (max-width:767px) {
+         .select{
+            background: #424a5d;
+            border: 2px #424a5d solid;
+           border-radius: 10px;
+           height: 45px;
+           color: #fff;
+           margin: 0;
+           padding-left: 0;
+           outline: none;
+           text-align: center;
+           width: 190px;
+          position: relative;
+          left:22%;
+           
+         }
+         .icons li a{
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        }
+       
+
+    </style>
+    <!-- .numberCircle:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        height: 2px;
+        width: 100%;
+        background: red;
+        transform: translate(-50%, 100%);
+      }
+
+</head> -->
+<body>
+    <div class="container-fluid mt-5 py-5">
+        
+        <div class="container mt-5">
+            <div class="row text-center text-lg-start">
+                <div class="col-sm-12 col-lg-2">
+                    <h3>Solutions</h3>
+                    <ul class=" ms-0 ps-0 mb-3 ul">
+                        <li> <a href="#">Marketing</a></li>
+                        <li> <a href="#">Sales</a></li>
+                        <li> <a href="#">Developers</a></li>
+                        <li> <a href="#">Design</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <h3>Information</h3>
+                    <ul class="text-center text-lg-start ms-0 ps-0 mb-3 ul">
+                        <li> <a href="#">Pricing</a></li>
+                        <li> <a href="#">Data Attributes</a></li>
+                        <li> <a href="#">Support</a></li>
+                        <li> <a href="#">Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-lg-2">
+                    <h3>Company</h3>
+                    <ul class="text-center text-lg-start ms-0 ps-0 mb-3 ul">
+                        <li> <a href="#">About</a></li>
+                        <li> <a href="#">Blog</a></li>
+                        <li> <a href="#">Jobs</a></li>
+                        <li> <a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-lg-2">
+                    <h3>legal</h3>
+                    <ul class="text-center text-lg-start  ms-0 ps-0 mb-3 ul">
+                        <li> <a href="#">Claim</a></li>
+                        <li> <a href="#">Privacy</a></li>
+                        <li> <a href="#">Terms</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3 ">
+                    <h3>language & currancy</h3>
+                        <select name="" id="" class="form-select mb-3 select ms-5 ms-lg-0">
+                            <option value="English">English</option>
+                        </select>
+                        <select name="" id="" class="select form-select ms-5 ms-lg-0">
+                            <option value="Aud">AUD</option>
+                        </select>
+                </div>
+            </div>
+            <hr class="text-start ms-0 ">
+            <div class="row">
+                <div class="col-6">
+                    <h3>Subscripe to our newsletter </h3>
+                    <p class="p text-start text-white">The latest new, Article and Resources, sent strait to you inbox every month.  </p>
+                </div>
+               
+                <div class="col-4 text-end ms-0 me-0 ps-0 pe-0">
+                    <input type="text" class="ps-0 ms-0" placeholder="Enter your name">
+                </div>
+                <div class="col-2 text-start ms-0 me-0 ps-0">
+                    <input class="ps-0 ms-0 text-center" type="submit" value="submit">
+                </div>
+                <hr class="text-start ms-0 mb-5">
+                <div class="col-6 ">
+                    <p class="copyright">&copy; 2022 Sonaky Street Studio,inc</p>
+                </div>
+                <div class="col-6 ">
+                    <ul class="text-end icons">
+                        <li> <a href="#"><i class="fa-solid fa-globe"></i></a></li>
+                        <li> <a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li> <a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li> <a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li> <a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+         </div>
+           
+        </div>
+        
+    </div>
+</body>
+</html>
